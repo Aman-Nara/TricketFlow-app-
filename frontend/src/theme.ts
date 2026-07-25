@@ -1,0 +1,40 @@
+export const theme = {
+  colors: {
+    surface: "#FDFDFB",
+    onSurface: "#1C1B1A",
+    surfaceSecondary: "#F4F2EC",
+    onSurfaceSecondary: "#5C5A56",
+    surfaceTertiary: "#EAE7E0",
+    onSurfaceTertiary: "#3B3936",
+    surfaceInverse: "#1C1B1A",
+    onSurfaceInverse: "#FDFDFB",
+    brand: "#C84B31",
+    brandPrimary: "#C84B31",
+    onBrandPrimary: "#FFFFFF",
+    brandSecondary: "#E07A5F",
+    onBrandSecondary: "#FFFFFF",
+    brandTertiary: "#F5D3C8",
+    onBrandTertiary: "#C84B31",
+    success: "#2D7D46",
+    warning: "#D48C29",
+    error: "#B93A3A",
+    border: "#EAE7E0",
+    divider: "#EAE7E0",
+    muted: "#5C5A56",
+  },
+  spacing: { xs: 4, sm: 8, md: 12, lg: 16, xl: 24, xxl: 32, xxxl: 48 },
+  radius: { sm: 6, md: 12, lg: 20, pill: 999 },
+  fs: { sm: 12, base: 14, lg: 16, xl: 20, xxl: 24, xxxl: 32 },
+  fw: { regular: "400" as const, medium: "500" as const, semi: "600" as const, bold: "700" as const },
+  shadow: {
+    card: {
+      shadowColor: "#000",
+      shadowOffset: { width: 0, height: 2 },
+      shadowOpacity: 0.06,
+      shadowRadius: 8,
+      elevation: 2,
+    },
+  },
+};
+
+export type Theme = typeof theme;

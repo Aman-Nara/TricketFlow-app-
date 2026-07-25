@@ -1,0 +1,39 @@
+# =========================
+# Backend (Python / FastAPI)
+# =========================
+backend/__pycache__/
+backend/*.py[cod]
+backend/*$py.class
+backend/.pytest_cache/
+backend/venv/
+backend/env/
+
+# =========================
+# Frontend (React Native / Expo)
+# =========================
+frontend/node_modules/
+frontend/.expo/
+frontend/dist/
+frontend/.metro-cache/
+frontend/npm-debug.log
+frontend/yarn-error.log
+
+# =========================
+# Environment Variables & Secrets
+# =========================
+# It is critical to ignore these so your API keys and database URLs are not exposed
+backend/.env
+frontend/.env
+*.env
+*.env.local
+
+# =========================
+# OS Generated Files
+# =========================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
